@@ -1,0 +1,204 @@
+.h1 {
+  color: red;
+}
+
+body {
+  background-color: var(--bg-theme);
+}
+
+/* .top-text-container {
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+@media (min-width: 992px) { */
+/* Large screens */
+/* .top-text-container {
+      flex-direction: row;
+      align-items: stretch;
+    }
+  } */
+
+.top-text {
+  background-color: var(--swatch-500);
+}
+
+.lol {
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.lista li:before {
+  content: '✓';
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ul li:before {
+  content: '✓';
+  font-size: 15px;
+} */
+
+.btn-kupi {
+  background-color: var(--bg-danger);
+  color: var(--swatch-100);
+  border-color: var(--swatch-100);
+  border-radius: 10px;
+}
+
+.btn-kupi:hover {
+  background-color: var(--swatch-100);
+  color: var(--bg-danger);
+  border-color: var(--bg-danger);
+}
+
+.btn-kupi:focus {
+  background-color: var(--swatch-100);
+  color: var(--bg-danger);
+  border-color: var(--bg-danger);
+}
+
+.btn-vise-info {
+  background-color: var(--bg-success);
+  color: var(--swatch-100);
+  border-color: var(--swatch-100);
+  border-radius: 10px;
+}
+
+.btn-vise-info:hover {
+  background-color: var(--swatch-100);
+  color: var(--bg-success);
+  border-color: var(--bg-success);
+}
+
+.cena-font {
+  font-size: var(--size-2);
+  font-weight: bold;
+}
+
+.color-600 {
+  background-color: var(--swatch-600);
+}
+
+.mb-05 {
+  margin-bottom: 2px;
+}
+
+.test {
+  min-height: 270px;
+  background-color: var(--bg-light);
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+.card {
+  background-color: var(--swatch-500);
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%280F0A' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%280F0A' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.test2 {
+  /* background-color: black; */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2B2407' viewBox='0 4 4 8'%3E%3Cpath d='M5.25 0l-10 0 10 100z'/%3E%3C/svg%3E") !important;
+
+}
+
+.zajedno-12-godina {
+  background-color: var(--bg-success);
+  font-size: var(--size-2);
+}
+
+.dilema-kupovina {
+  font-size: var(--size-3);
+}
+
+.footer-text {
+  background-color: var(--swatch-800);
+}
+
+.footer-links {
+  font-size: var(--size-1-5);
+}
+
+.links-styles {
+  color: var(--swatch-100);
+}
+
+.links-styles:hover {
+  color: var(--swatch-300);
+}
+
+.naslov {
+  font-size: var(--size-8);
+  font-family: var(--font-title);
+}
+
+.intro-text {
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: var(--bg-danger);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.paketi {
+  font-size: var(--size-4);
+  font-weight: 700;
+}
+
+.card-normal {
+  background-color: var(--swatch-300);
+}
+
+.card-highlighted {
+  background-color: var(--swatch-500);
+}
+
+.btn-poruci {
+  background-color: var(--bg-primary);
+  stroke: var(--bg-dark);
+  color: var(--swatch-100) !important;
+  border-color: var(--swatch-100);
+  border-radius: 10px;
+}
+
+.btn-poruci:hover {
+  background-color: var(--swatch-100);
+  color: var(--bg-primary) !important;
+  border-color: var(--bg-primary);
+}
+
+.btn-poruci-big {
+  background-color: var(--bg-primary);
+  stroke: var(--bg-dark);
+  color: var(--swatch-100) !important;
+  border-color: var(--swatch-100);
+  border-radius: 10px;
+  font-size: var(--size-2);
+}
+
+.btn-poruci-big:hover {
+  background-color: var(--swatch-100);
+  color: var(--bg-primary) !important;
+  border-color: var(--bg-primary);
+
+}
+
+.preporucujemo {
+  background-color: var(--bg-warning);
+  font-weight: 700;
+}
+
+.linija {
+  line-height: 2.2;
+}

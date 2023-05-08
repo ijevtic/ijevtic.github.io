@@ -1,0 +1,38 @@
+.title-font {
+  font-family: var(--font-title);
+  font-size: 40px;
+}
+
+.subtitle-font {
+  font-family: var(--font-subtitle);
+  font-size: var(--size-3);
+}
+
+.text-font {
+  font-family: var(--font-text);
+  font-size: 15px;
+}
+
+.domain-font {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.dark-font {
+  color: var(--bg-dark);
+}
+
+.light-font {
+  color: var(--swatch-100);
+}
+
+.headings {
+  font-family: var(--font-subtitle);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.big-text {
+  font-size: 25px;
+  font-weight: 1000;
+}

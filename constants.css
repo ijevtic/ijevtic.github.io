@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+:root {
+
+  --bg-primary: #550C18;
+  --bg-secondary: #E3B920;
+  --bg-success: #682631;
+  --bg-danger: #7A404A;
+  --bg-warning: #9C631C;
+  --bg-info: #A48850;
+  --bg-light: #F7EABA;
+  --bg-dark: #280F0A;
+  --bg-theme: #F5F5F5;
+
+  --swatch-100: #FCF7E4;
+  --swatch-200: #F7EABA;
+  --swatch-300: #F1DC90;
+  --swatch-400: #E2CD80;
+  --swatch-500: #D2BD70;
+  --swatch-600: #B29D50;
+  --swatch-700: #927D30;
+  --swatch-800: #725D10;
+  --swatch-900: #2B2407;
+  --swatch-1000: #1F1A05;
+
+  --font-title: 'Ubuntu', sans-serif;
+  --font-subtitle: 'Nunito Sans', sans-serif;
+  --font-text: 'Merriweather', serif;
+  
+  --size-1: 1rem;
+  --size-1-5: 1.125rem;
+  --size-2: 1.25rem;
+  --size-3: 1.5rem;
+  --size-4: 1.75rem;
+  --size-5: 2rem;
+  --size-6: 2.25rem;
+  --size-7: 2.5rem;
+  --size-8: 2.75rem;
+  --size-9: 3rem;
+  --size-10: 3.25rem;
+}
